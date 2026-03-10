@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayuri Family Restaurant | Authentic Indian Dining in Nellore</title>
+    <meta name="description"
+        content="A trusted neighborhood restaurant in Nellore where great food, family moments, and authentic flavors come together. Serving the best biryanis and non-veg dishes.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                MAYURI
+                <span>FAMILY RESTAURANT</span>
+            </a>
+
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#location">Location</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero"
+        style="background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('assets/images/hero_biryani_1773110072835.png') center/cover no-repeat;">
+        <div class="hero-content">
+            <h1>Where Families Gather for Great Food</h1>
+            <p>Authentic flavors, generous portions, and a welcoming atmosphere — experience one of Nellore’s favorite
+                family dining spots.</p>
+            <div class="hero-btns">
+                <a href="#menu" class="btn btn-primary">View Menu</a>
+                <a href="#reservation" class="btn btn-secondary" style="color: white; border-color: white;">Reserve a
+                    Table</a>
+            </div>
+
+            <div class="trust-badges">
+                <div class="badge"><i class="fas fa-star"></i> 4.4 Rating</div>
+                <div class="badge"><i class="fas fa-users"></i> Family Friendly Dining</div>
+                <div class="badge"><i class="fas fa-utensils"></i> Authentic Indian Cuisine</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding fade-in-section">
+        <div class="container about-grid">
+            <div class="about-content">
+                <div class="section-header" style="text-align: left; margin-left: 0;">
+                    <p>Our Story</p>
+                    <h2>A Local Favorite for Family Dining in Nellore</h2>
+                </div>
+                <p>Mayuri Family Restaurant is known for its delicious food, warm hospitality, and comfortable dining
+                    environment. Located in the heart of Nellore, the restaurant has become a popular spot for families,
+                    friends, and food lovers looking to enjoy authentic Indian dishes and flavorful biryanis.</p>
+                <p>Whether you're planning a family dinner, a casual outing with friends, or simply craving great food,
+                    Mayuri offers a dining experience that keeps guests coming back.</p>
+                <a href="#menu" class="btn btn-secondary mt-4">Discover Our Menu</a>
+            </div>
+            <div class="about-img-wrap">
+                <img src="assets/images/restaurant_interior_1773110159804.png" alt="Mayuri Restaurant Interior"
+                    class="about-img">
+                <div class="about-badge">
+                    <span class="number">300+</span>
+                    <span style="font-size: 0.8rem; font-family: var(--font-body); letter-spacing: 1px;">REVIEWS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu / Signature Dishes Section -->
+    <section id="menu" class="menu section-padding">
+        <div class="container fade-in-section">
+            <div class="section-header">
+                <p>Signature Dishes</p>
+                <h2>Explore Our Favorites</h2>
+            </div>
+
+            <div class="menu-filter">
+                <button class="filter-btn active" data-filter="all">All Items</button>
+                <button class="filter-btn" data-filter="biryani">Biryani Specials</button>
+                <button class="filter-btn" data-filter="non-veg">Non-Veg Favorites</button>
+                <button class="filter-btn" data-filter="indian">Indian Main Course</button>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Item 1 -->
+                <div class="menu-card" data-category="biryani">
+                    <div class="menu-img-wrap">
+                        <img src="assets/images/hero_biryani_1773110072835.png" alt="Special Chicken Biryani"
+                            class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3 class="menu-title">Special Chicken Biryani</h3>
+                            <span style="color: var(--secondary); font-weight: 600;">₹320</span>
+                        </div>
+                        <p class="menu-desc">Our highly rated classic biryani cooked with tender chicken pieces,
+                            aromatic spices, and basmati rice.</p>
+                        <a href="#reservation" class="menu-action">Order Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="menu-card" data-category="non-veg">
+                    <div class="menu-img-wrap">
+                        <img src="assets/images/signature_mutton_fry_1773110137700.png" alt="Mutton Fry Boneless"
+                            class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3 class="menu-title">Mutton Fry Boneless</h3>
+                            <span style="color: var(--secondary); font-weight: 600;">₹450</span>
+                        </div>
+                        <p class="menu-desc">Spicy, deep-fried succulent boneless mutton pieces coated in our secret
+                            South Indian spice mix.</p>
+                        <a href="#reservation" class="menu-action">Order Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="menu-card" data-category="biryani">
+                    <div class="menu-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop"
+                            alt="Prawns Biryani" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3 class="menu-title">Prawns Biryani</h3>
+                            <span style="color: var(--secondary); font-weight: 600;">₹380</span>
+                        </div>
+                        <p class="menu-desc">Fresh coastal prawns marinated in spices and layered with fragrant
+                            long-grain biryani rice.</p>
+                        <a href="#reservation" class="menu-action">Order Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="menu-card" data-category="non-veg">
+                    <div class="menu-img-wrap">
+                        <img src="assets/images/chicken_lollipop_1773110404367.png" alt="Chicken Lollipop"
+                            class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3 class="menu-title">Chicken Lollipop</h3>
+                            <span style="color: var(--secondary); font-weight: 600;">₹280</span>
+                        </div>
+                        <p class="menu-desc">Crispy fried chicken drumettes tossed in a tangy and spicy saucy glaze. A
+                            perfect starter.</p>
+                        <a href="#reservation" class="menu-action">Order Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="menu-card" data-category="indian">
+                    <div class="menu-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop"
+                            alt="Butter Naan & Dal Fry" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3 class="menu-title">Butter Naan & Dal Fry</h3>
+                            <span style="color: var(--secondary); font-weight: 600;">₹190</span>
+                        </div>
+                        <p class="menu-desc">Soft, buttery tandoori flatbread served alongside our creamy, tempered
+                            yellow lentils.</p>
+                        <a href="#reservation" class="menu-action">Order Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="menu-card" data-category="indian">
+                    <div class="menu-img-wrap">
+                        <img src="assets/images/paneer_manchurian_1773110429069.png" alt="Paneer Manchurian"
+                            class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3 class="menu-title">Paneer Manchurian</h3>
+                            <span style="color: var(--secondary); font-weight: 600;">₹240</span>
+                        </div>
+                        <p class="menu-desc">Crisp paneer cubes wok-tossed in a vibrant dark soy and garlic sauce.
+                            Indo-Chinese perfection.</p>
+                        <a href="#reservation" class="menu-action">Order Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-secondary">Explore Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="features section-padding">
+        <div class="container fade-in-section">
+            <div class="section-header">
+                <p>The Mayuri Experience</p>
+                <h2>Why Choose Mayuri</h2>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-utensils"></i></div>
+                    <h4>Delicious Authentic Taste</h4>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-weight-hanging"></i></div>
+                    <h4>Generous Portion Sizes</h4>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-tags"></i></div>
+                    <h4>Affordable Prices</h4>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-smile-beam"></i></div>
+                    <h4>Friendly Service</h4>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-users"></i></div>
+                    <h4>Perfect for Families & Groups</h4>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h4>Convenient Location in Nellore</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews section-padding">
+        <div class="container fade-in-section">
+            <div class="section-header">
+                <p>Testimonials</p>
+                <h2>What Our Guests Say</h2>
+            </div>
+
+            <div class="review-grid">
+                <!-- Review 1 -->
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">“Food was very tasty and perfect for family dining. We tried mutton fry,
+                        prawns biryani and chicken lollipops — everything was excellent.”</p>
+                    <div class="review-author">
+                        <div class="author-avatar"
+                            style="width: 40px; height: 40px; background: #e0e0e0; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary); font-weight: bold;">
+                            SK</div>
+                        <div class="author-info">
+                            <h5>Suresh K.</h5>
+                            <span>Local Guide</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="review-text">“Great ambience and good service. Biryani quantity is generous and the
+                        pricing is reasonable. Definitely a go-to spot for weekends.”</p>
+                    <div class="review-author">
+                        <div class="author-avatar"
+                            style="width: 40px; height: 40px; background: #e0e0e0; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary); font-weight: bold;">
+                            PR</div>
+                        <div class="author-info">
+                            <h5>Priya Reddy</h5>
+                            <span>Food Explorer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">“The chicken fried rice and paneer manchurian were perfect! Friendly staff,
+                        very accommodating for a large group of friends.”</p>
+                    <div class="review-author">
+                        <div class="author-avatar"
+                            style="width: 40px; height: 40px; background: #e0e0e0; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary); font-weight: bold;">
+                            RN</div>
+                        <div class="author-info">
+                            <h5>Rahul Naidu</h5>
+                            <span>Regular Customer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <div class="google-badge">
+                    <svg viewBox="0 0 48 48" width="20px" height="20px" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#EA4335"
+                            d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z">
+                        </path>
+                        <path fill="#4285F4"
+                            d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z">
+                        </path>
+                        <path fill="#FBBC05"
+                            d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z">
+                        </path>
+                        <path fill="#34A853"
+                            d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z">
+                        </path>
+                    </svg>
+                    <span>4.4 Rating (300+ Reviews)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Banner (Overlaps Sections) -->
+    <div class="container fade-in-section">
+        <div class="services-grid">
+            <div class="service-item">
+                <div class="service-icon"><i class="fas fa-chair"></i></div>
+                <h4>Dine-In</h4>
+            </div>
+            <div class="service-item">
+                <div class="service-icon"><i class="fas fa-car-side"></i></div>
+                <h4>Drive-Through</h4>
+            </div>
+            <div class="service-item">
+                <div class="service-icon"><i class="fas fa-box"></i></div>
+                <h4>Takeaway</h4>
+            </div>
+            <div class="service-item">
+                <div class="service-icon"><i class="fas fa-motorcycle"></i></div>
+                <h4>No-Contact Delivery</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery / Experience Section -->
+    <section id="experience" class="gallery pb-5 fade-in-section">
+        <div class="container" style="padding-bottom: 80px;">
+            <div class="section-header">
+                <p>Restaurant Experience</p>
+                <h2>A Taste of Our Atmosphere</h2>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/images/restaurant_interior_1773110159804.png" alt="Interior Dining Space"
+                        class="gallery-img">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/signature_mutton_fry_1773110137700.png" alt="Mutton Fry Detail"
+                        class="gallery-img">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=800&auto=format&fit=crop"
+                        alt="Family Dining" class="gallery-img">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation section-padding fade-in-section"
+        style="background-color: var(--surface);">
+        <div class="container">
+            <div class="section-header">
+                <p>Book a Table</p>
+                <h2>Make a Reservation</h2>
+            </div>
+            <div class="reservation-form-container"
+                style="max-width: 800px; margin: 0 auto; background: var(--bg-color); padding: 40px; border-radius: 12px; box-shadow: var(--shadow-sm);">
+                <form id="reserve-form">
+                    <div
+                        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 20px;">
+                        <div>
+                            <label for="res_name" style="display: block; margin-bottom: 8px; font-weight: 500;">Customer
+                                Name</label>
+                            <input type="text" id="res_name" required
+                                style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-family: var(--font-body);">
+                        </div>
+                        <div>
+                            <label for="res_phone" style="display: block; margin-bottom: 8px; font-weight: 500;">Phone
+                                Number</label>
+                            <input type="tel" id="res_phone" required
+                                style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-family: var(--font-body);">
+                        </div>
+                    </div>
+                    <div
+                        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 20px;">
+                        <div>
+                            <label for="res_date"
+                                style="display: block; margin-bottom: 8px; font-weight: 500;">Reservation Date</label>
+                            <input type="date" id="res_date" required
+                                style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-family: var(--font-body);">
+                        </div>
+                        <div>
+                            <label for="res_time"
+                                style="display: block; margin-bottom: 8px; font-weight: 500;">Reservation Time</label>
+                            <input type="time" id="res_time" required
+                                style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-family: var(--font-body);">
+                        </div>
+                        <div>
+                            <label for="res_guests" style="display: block; margin-bottom: 8px; font-weight: 500;">Number
+                                of Guests</label>
+                            <select id="res_guests" required
+                                style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-family: var(--font-body);">
+                                <option value="" disabled selected>Select Guests</option>
+                                <option value="1">1 Person</option>
+                                <option value="2">2 People</option>
+                                <option value="3">3 People</option>
+                                <option value="4">4 People</option>
+                                <option value="5">5+ People</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 30px;">
+                        <label for="res_requests" style="display: block; margin-bottom: 8px; font-weight: 500;">Special
+                            Requests (optional)</label>
+                        <textarea id="res_requests" rows="3" placeholder="Any special requests or notes..."
+                            style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-family: var(--font-body);"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary"
+                            style="width: 100%; max-width: 320px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-size: 1.1rem; padding: 14px 24px; border-radius: 8px;">
+                            <i class="fab fa-whatsapp" style="font-size: 1.3rem;"></i> Book Table via WhatsApp
+                        </button>
+                    </div>
+                    <div id="form-message"
+                        style="display: none; margin-top: 15px; text-align: center; color: var(--accent); font-weight: bold; padding: 12px; background-color: #e8f5e9; border-radius: 6px; border: 1px solid #c8e6c9;">
+                        Your reservation request will be sent via WhatsApp for confirmation.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="visit-us section-padding fade-in-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Visit Mayuri Family Restaurant</h2>
+                <p>Conveniently located on Mini Bypass Road opposite PVR Kalyana Mandapam in Nellore.</p>
+            </div>
+
+            <div class="visit-us-wrapper">
+                <div class="map-container rounded-map">
+                    <iframe width="100%" height="450" style="border:0" loading="lazy" allowfullscreen
+                        referrerpolicy="no-referrer-when-downgrade"
+                        src="https://www.google.com/maps?q=Mayuri+Family+Restaurant+Mini+Bypass+Road+Magunta+Layout+Nellore&output=embed">
+                    </iframe>
+                </div>
+
+                <div class="map-buttons-container mt-4 text-center">
+                    <a href="https://maps.app.goo.gl/ra1BuKMk6hf96x4UA" target="_blank"
+                        class="btn btn-primary touch-btn">
+                        <i class="fas fa-directions"></i> Get Directions
+                    </a>
+                    <a href="tel:+919063688488" class="btn btn-accent touch-btn">
+                        <i class="fas fa-phone-alt"></i> Call Now
+                    </a>
+                    <a href="https://maps.app.goo.gl/ra1BuKMk6hf96x4UA" target="_blank"
+                        class="btn btn-secondary touch-btn">
+                        <i class="fas fa-map-marked-alt"></i> Open in Google Maps
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-details mt-4">
+                <div class="info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Address</h4>
+                    <p>Opp: PVR Kalyana Mandapam,<br>24-7-305/3 Mini Bypass Road,<br>Magunta Layout, Nellore</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h4>Phone</h4>
+                    <p>+91 90636 88488</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-clock"></i>
+                    <h4>Opening Hours</h4>
+                    <p>Everyday: 12:00 PM – 11:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Reservation Button for Mobile -->
+    <a href="#reservation" class="sticky-res-btn">
+        <i class="fab fa-whatsapp" style="font-size: 1.3rem;"></i> Book Table
+    </a>
+
+    <!-- Sticky Call Button for Mobile -->
+    <a href="tel:+919063688488" class="sticky-call-btn" id="stickyCallBtn">
+        <div
+            style="background-color: var(--secondary); color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-lg);">
+            <i class="fas fa-phone-alt" style="font-size: 1.5rem;"></i>
+        </div>
+    </a>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container fade-in-section">
+            <h2>Ready for a Delicious Dining Experience?</h2>
+            <p>Join us at Mayuri Family Restaurant for authentic biryanis and unforgettable flavors.</p>
+            <div class="hero-btns" style="transform: none; opacity: 1; animation: none;">
+                <a href="#reservation" class="btn btn-primary">Reserve Table</a>
+                <a href="tel:09063688488" class="btn btn-secondary" style="color: white; border-color: white;">Call:
+                    090636 88488</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="#" class="logo">
+                        MAYURI
+                        <span style="color: var(--secondary);">FAMILY RESTAURANT</span>
+                    </a>
+                    <p>A trusted neighborhood restaurant in Nellore where great food, family moments, and authentic
+                        flavors come together.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links-col">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Our Menu</a></li>
+                        <li><a href="#reservation">Reservation</a></li>
+                        <li><a href="#location">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-col">
+                    <h3 class="footer-title">Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Dine-In</a></li>
+                        <li><a href="#">Takeaway</a></li>
+                        <li><a href="#">No-Contact Delivery</a></li>
+                        <li><a href="#reservation">Table Reservation</a></li>
+                        <li><a href="#">Party Orders</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-col">
+                    <h3 class="footer-title">Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-map-marker-alt"
+                                    style="margin-right: 10px; color: var(--secondary);"></i> Magunta Layout,
+                                Nellore</a></li>
+                        <li><a href="tel:09063688488"><i class="fas fa-phone"
+                                    style="margin-right: 10px; color: var(--secondary);"></i> 090636 88488</a></li>
+                        <li><a href="#"><i class="fas fa-clock"
+                                    style="margin-right: 10px; color: var(--secondary);"></i> 12:00 PM – 11:00 PM</a>
+                        </li>
+                        <li><a href="#"><i class="fas fa-star" style="margin-right: 10px; color: var(--secondary);"></i>
+                                4.4 Google Rating</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mayuri Family Restaurant (మయూరి ఫ్యామిలీ రెస్టారెంట్). Designed for Excellence.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
